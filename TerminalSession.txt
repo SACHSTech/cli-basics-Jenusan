@@ -1,1 +1,23 @@
-
+@Jenusan ➜ /workspaces/cli-basics-Jenusan (main) $ pwd
+/workspaces/cli-basics-Jenusan
+@Jenusan ➜ /workspaces/cli-basics-Jenusan (main ✗) $ mkdir CLIBasicsFolder
+@Jenusan ➜ /workspaces/cli-basics-Jenusan (main ✗) $ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+@Jenusan ➜ /workspaces/cli-basics-Jenusan (main ✗) $ cd CLIBasicsFolder
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ touch myfile.txt
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ echo jenusan ics4ub >> myfile.txt
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ ls
+myfile.txt
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ cat myfile.txt
+jenusan ics4ub
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ ls
+myfile_copy.txt  myfile.txt
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ mv myfile_copy.txt myfile2.txt
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ mv myfile2.txt ..
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ ls ..
+CLIBasicsFolder  myfile2.txt  README.md  TerminalSession.txt
+@Jenusan ➜ /workspaces/cli-basics-Jenusan/CLIBasicsFolder (main ✗) $ cd ..
+@Jenusan ➜ /workspaces/cli-basics-Jenusan (main ✗) $ rm -r myfile2.txt
+@Jenusan ➜ /workspaces/cli-basics-Jenusan (main ✗) $ rm -r CLIBasicsFolder
+@Jenusan ➜ /workspaces/cli-basics-Jenusan (main ✗) $ ls ..
